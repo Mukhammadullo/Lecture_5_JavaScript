@@ -44,3 +44,28 @@ console.log(person) //Output {firstName:"Muhammadullo"}
 ```
 
 # _Methods object in JavaScript?_
+>_1.Object.keys()-In JavaScript, the Object.keys() method is used to extract all the keys of an object and return them as an array. It allows you to iterate over the keys of an object and perform operations on them._
+
+```js
+
+let person={
+    name:"Muhammadullo",
+    age:21
+}
+let keys=Object.keys(person)
+console.log(keys) //output:["name", "age"]
+```
+>_2.Object.values()-In JavaScript, the Object.values() method is used to extract all the values of an object and return them as an array. It allows you to iterate over the values of an object and perform operations on them._
+
+```js
+
+let person={
+    name:"Amir",
+    age:21
+}
+let valuesObj=Object.values(person)
+console.log(valuesObj) //output:
+
+```
+> _2.Object.entries()-In JavaScript, the Object.entries() method is used to extract both the keys and values of an object and return them as an array of key-value pairs._
+
