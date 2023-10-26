@@ -69,3 +69,37 @@ console.log(valuesObj) //output:
 ```
 > _2.Object.entries()-In JavaScript, the Object.entries() method is used to extract both the keys and values of an object and return them as an array of key-value pairs._
 
+```js
+
+let person={
+name:"Muhammadullo",
+age:21,
+job:"Stundent"
+}
+
+let entriesObj=Object.entries(person)
+console.log(entries) //Output: [["name", "Muhammadullo"],["age", "21"],["job","student"]]
+```
+
+> #_What is destructuring in Object?_
+
+```js
+let person={
+name:"Muhammadullo",
+age:21,
+job:"Stundent"
+}
+
+let {name,age, job}=obj
+
+console.log(name) //output:"Muhammadullo"
+console.log(age) //output:"21"
+console.log(job) //output:"Student"
+```
+
+
+> #_Spread in Object?_
+
+```js
+
+```
