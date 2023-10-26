@@ -101,5 +101,30 @@ console.log(job) //output:"Student"
 > #_Spread in Object?_
 
 ```js
+let obj={
+    name:"Muhammadullo",
+    age:21
+}
+
+
+let copy={...obj}
+console.log(copy) //output {name:"Muhammadullo", age:21}
+
+```
+
+
+> _What is this in JavaScript?-In JavaScript, the this keyword refers to the current execution context or the object that the function is being called on. Its value is determined by how a function is invoked.The behavior of this can vary depending on the context in which it is used. Here are some common scenarios:Global Scope: When this is used in the global scope (outside of any function), it refers to the global object, which is window in a browser environment or global in Node.js.Object Method: When this is used within a method of an object, it refers to the object itself._
+
+```js
+
+let  person = {
+  name: 'John',
+  sayHello: function() {
+    console.log(`Hello, ${this.name}!`);
+  }
+};
+
+person.sayHello(); // Output: Hello, John!
+
 
 ```
