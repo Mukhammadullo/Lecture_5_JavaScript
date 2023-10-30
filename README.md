@@ -64,7 +64,7 @@ let person={
     age:21
 }
 let valuesObj=Object.values(person)
-console.log(valuesObj) //output:
+console.log(valuesObj) //output:["Amir", 21]
 
 ```
 > _2.Object.entries()-In JavaScript, the Object.entries() method is used to extract both the keys and values of an object and return them as an array of key-value pairs._
@@ -74,7 +74,7 @@ console.log(valuesObj) //output:
 let person={
 name:"Muhammadullo",
 age:21,
-job:"Stundent"
+job:"Student"
 }
 
 let entriesObj=Object.entries(person)
