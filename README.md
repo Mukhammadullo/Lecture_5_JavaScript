@@ -128,3 +128,41 @@ person.sayHello(); // Output: Hello, John!
 
 
 ```
+
+> _What is new Date in JavaScript?-In JavaScript, date and time are represented by the Date object.The Date object provides the date and time information and also provides various methods.A JavaScript date defines the EcmaScript epoch that represents milliseconds since 1 January 1970 UTC.This date and time is the UNIX epoch (predominant base value for computer-recorded date and time values.)_
+
+> _Creating Date Objects.There are four ways to create a date object_
+> _new Date_
+```js
+      let newDate=new Date(),
+      console.log(newDate) //Output:Mon Oct 30 2023 18:44:54 GMT +0500 (Tajikistan)
+```
+> _new Date(milliseconds)_
+
+```js
+let  newDate=new Date(0)
+console.log(newDate) //Output: Thu Jan 01 1970 06:00:00  (Tajikistan)
+```
+> _new Date (date string)_
+```js
+console.log(new Date("2024-03-09"))
+```
+> _now-returns the numeric value corresponding to the current time (the number of milliseconds elapsed since January 1, 1970 00:00:00 UTC)_
+```js
+console.log(Date.now()) //Output: 164578785498
+```
+> _getFullYear-gets the year according to local time_
+```js
+let newDate= new Date()
+console.log(newDate.getFullYear()) //Output:2023
+```
+> _getMonth()-gets the month, from 0 to 11 according to local time_
+```js
+let newDate= new Date()
+console.log(newDate.getMonth()) //Output:9
+```
+> _getDate()-gets the day of the month (1-31) according to local time_
+```js
+let newDate=new Date()
+console.log(newDate.getDate()) //OutPut:30   
+```
