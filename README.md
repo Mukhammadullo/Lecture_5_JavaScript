@@ -166,3 +166,43 @@ console.log(newDate.getMonth()) //Output:9
 let newDate=new Date()
 console.log(newDate.getDate()) //OutPut:30   
 ```
+> _getDay()-Get the day of the week(0-6) according to local time_
+```js
+let newDate=new Date()
+console.log(newDate.get.getDay()) //Output: 2
+```
+> _getHours()-Gets the hour from 0 to 23 according to local time_
+```js
+let newDate= new Date()
+console.log(newDate.getDay()) //Output 🕖
+```
+> _getMinutes-Gets the minute from 0 to 59 according to local time_
+```js
+let newDate=new Date()
+console.log(newDate.getMinutes()) //Output:5
+```
+> _getUTCDate()-Gets the day of the month (1-31) according to universal  time_
+```js
+let newDate= new Date()
+console.log(newDate.getUTCDate)) //Output: 31
+```
+> _setFullYear-Sets the full year according to local time_
+```js
+let newDate = new Date()
+console.log(newDate.setFullYear(2002)) //OutPut:1036034398368
+```
+> _setMonth()-Set the month according to local time_
+```js
+let newDate=new Date()
+console.log(newDate.setMonth(2023)) //Output:6995042446215
+```
+> _setDate()-Sets the day  of the month accroding to loacl time_
+```js
+let newDate= new Date()
+console.log(newDate.setDate(2023)) //Output:1870831429441
+```
+> _setUTCDate()-Sets the day of the month according to universal time_
+```js
+let newDate=new Date()
+console.log(newDate.setUTCDate(2023)) //Output:1870831608556
+```
