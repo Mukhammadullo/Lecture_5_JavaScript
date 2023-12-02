@@ -118,13 +118,13 @@ console.log(copy) //output {name:"Muhammadullo", age:21}
 ```js
 
 let  person = {
-  name: 'John',
+  name: 'Tom',
   sayHello: function() {
     console.log(`Hello, ${this.name}!`);
   }
 };
 
-person.sayHello(); // Output: Hello, John!
+person.sayHello(); // Output: Hello, Tom!
 
 
 ```
